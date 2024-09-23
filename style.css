@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: "Montserrat", sans-serif;
+	color: #1C1C1E;
+}
+
+a{
+	text-decoration: none;
+}
+
+.registration{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 1204px;
+	margin: auto;
+	flex-direction: column;
+	gap: 30px;
+}
+
+.register-card{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	border: 2px solid #1C1C1E;
+	border-radius: 22px;
+	padding: 24px 24px 68px;
+	box-shadow: 0px 111px 31px 0px rgba(149, 149, 149, 0.00), 0px 71px 28px 0px rgba(149, 149, 149, 0.00), 0px 40px 24px 0px rgba(149, 149, 149, 0.07), 0px 18px 18px 0px rgba(0, 0, 0, 0.13), 0px 4px 10px 0px rgba(9, 9, 9, 0.20);
+	position: relative;
+	overflow: hidden;
+}
+
+.register-card.bg-purple::after{
+	position: absolute;
+    top: 50%;
+    right: 0;
+    content: ' ';
+    width: 723.801px;
+    height: 712.212px;
+    transform: rotate(13.662deg) translate(0, -50%);
+    border-radius: 723.801px;
+    opacity: 0.35;
+    background: #655CE6;
+    filter: blur(131.7324981689453px);
+    z-index: 0;
+}
+
+.register-card.bg-purple:hover::after{
+	transform: rotate(13.662deg) translate(0, -50%) scale(1.8);
+    transition: all .5s;
+}
+
+.register-card.bg-pink::after{
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: ' ';
+    width: 801.779px;
+    height: 334.754px;
+    transform: rotate(-17.076deg);
+    border-radius: 801.779px;
+    opacity: 0.55;
+    background: #FF8080;
+    filter: blur(83.36654663085938px);
+    z-index: 0;
+}
+
+.register-card.bg-pink:hover::after {
+    transform: rotate(-17.076deg) scale(1.8);
+    transition: all .5s;
+}
+
+.register-card-content{
+	width: 100%;
+    max-width: 460px;
+}
+
+.register-card-content h2{
+	font-size: 32px;
+	font-weight: 500;
+	margin-bottom: 30px;
+	position: relative;
+    z-index: 2;
+}
+
+.register-card-content p{
+	font-size: 18px;
+	font-weight: 400;
+	position: relative;
+    z-index: 2;
+}
+
+.register-card-btns{
+	width: 303px;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.register-card-btns a{
+	display: flex;
+    align-items: center;
+    gap: 8px;
+    border-radius: 10px;
+    background: #FFF;
+    justify-content: center;
+    width: 299px; 
+    height: 44px;
+    padding: 0 16px;
+    font-size: 18px;
+    border: 2px solid #1C1C1E;
+    font-weight: 600;
+    position: relative;
+    z-index: 2;
+}
+
+.register-card-btns .register-btn, .register-card-btns .register-btn i{
+	background-color: #1C1C1E;
+	color: #fff;
+}
+
+.register-card-btns .register-btn:hover, .register-card-btns .register-btn:hover i{
+	background-color: #fff;
+	color: #1C1C1E;
+}
+
+.register-card-btns .session-btn:hover, .register-card-btns .session-btn:hover i{
+	background-color: #1C1C1E;
+	color: #fff;
+}
