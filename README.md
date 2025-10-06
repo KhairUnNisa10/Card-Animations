@@ -13,7 +13,7 @@ The design is modern, minimal, and responsive, perfect as a component for portfo
 * Smooth hover transitions for a premium feel
 * Built with pure **HTML & CSS** (no external frameworks)
 
-## 🚀 Live Demo
+## Live Demo
 
 [View Hover Card Animations](https://khairunnisa10.github.io/Card-Animations/)
 
